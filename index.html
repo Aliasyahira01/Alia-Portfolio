@@ -70,12 +70,47 @@
             <div class="about-layout">
                 <!-- LEFT: Photo Stack -->
                 <div class="about-photos">
-                    <div class="photo-stack" aria-hidden="true">
-                        <div class="photo photo-one"></div>
-                        <div class="photo photo-two"></div>
-                        <div class="photo photo-three"></div>
-                        <div class="photo photo-four"></div>
-                        <div class="photo photo-five"></div>
+                    <div class="photopile">
+
+                    <button popovertarget="photo1">
+                        <figure>
+                        <img src="assets/images/photo-6.png" alt="Alia Photo 1">
+                        <figcaption>LIFE</figcaption>
+                        </figure>
+                    </button>
+
+                    <button popovertarget="photo2">
+                        <figure>
+                        <img src="assets/images/photo-5.jpg" alt="Alia Photo 2">
+                        <figcaption>SELF</figcaption>
+                        </figure>
+                    </button>
+
+                    <button popovertarget="photo3">
+                        <figure>
+                        <img src="assets/images/photo-7.png" alt="Alia Photo 3">
+                        <figcaption>PROUD</figcaption>
+                        </figure>
+                    </button>
+
+                    </div>
+
+
+                    <div class="popovers">
+                    <figure popover id="photo1">
+                        <img src="assets/images/photo-1.jpg">
+                        <figcaption>WORK</figcaption>
+                    </figure>
+
+                    <figure popover id="photo2">
+                        <img src="assets/images/photo-2.jpg">
+                        <figcaption>PROJECTS</figcaption>
+                    </figure>
+
+                    <figure popover id="photo3">
+                        <img src="assets/images/photo-3-3.png">
+                        <figcaption>LIFE</figcaption>
+                    </figure>
                     </div>
                 </div>
 
@@ -98,6 +133,10 @@
                     system reliability.
                 </p>
 
+                <p class="about-text">
+                    Nurul Alia Syahira Binti Mohd Taim  <br> 06 December 2001 <br> Ulu Tiram, Johor <br>
+                </p>
+
                 <div class="about-tags">
                     <span>Angular</span>
                     <span>.NET Web API</span>
@@ -109,10 +148,11 @@
 
                 <div class="about-actions">
                     <a href="assets/images/CV_NURUL ALIA SYAHIRA BINTI MOHD TAIM.pdf" class="about-btn primary">Download CV</a>
+                    <a href="#project" class="about-btn discover">Discover Project <span class="arrow">→</span></a>
                 </div>
 
                 <!-- KEEP YOUR SOCIAL ICONS BELOW (UNCHANGED) -->
-                <div class="about-skill">
+                <!-- <div class="about-skill">
                     <div class="about-medsoc gradient-shadow"> 
                         <a href="https://www.linkedin.com/in/aliasyahira0612"> 
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16"> 
@@ -134,82 +174,13 @@
                             </svg>
                         </a> 
                     </div>
-                </div>
+                </div> -->
                 </div>
             </div>
         </section>
 
         <!-- PROFILE -->
         <section id="profile" class="section profile-section">
-            <h2 class="profile-title">Profile</h2>
-
-            <div class="profile-card-grid">
-
-            <div class="profile-photo photo-1"></div>
-
-            <div class="profile-box profile-name">
-                <h1>Nurul Alia Syahira Binti Mohd Taim</h1>
-                <span>Software Engineer</span>
-            </div>
-
-            <div class="profile-box profile-birth">
-                <label>Birth Date</label>
-                <p>December 06, 2001</p>
-            </div>
-
-            <div class="profile-box profile-from">
-                <label>From</label>
-                <p>Ulu Tiram, Johor</p>
-            </div>
-
-            <div class="profile-photo photo-2"></div>
-
-            <div class="profile-box profile-phone">
-                <label>Phone</label>
-                <p>
-                    <a href="tel:+60183558464" class="profile-link">
-                    +60 18 355 8464
-                    </a>
-                </p>
-            </div>
-
-            <div class="profile-photo photo-3"></div>
-
-            <div class="profile-box profile-email">
-                <label>Email</label>
-                <p>
-                    <a href="mailto:Aliasyahira0612@gmail.com" class="profile-link">
-                    Aliasyahira0612@gmail.com
-                    </a>
-                </p>
-            </div>
-
-            <div class="profile-education">
-                <label>Education</label>
-
-                <div class="profile-edu-item">
-                    <span class="profile-edu-year">2021 – 2024</span>
-                    <div>
-                    <strong>Bachelor of Computer Science (Software Engineering)</strong>
-                    <p>Universiti Kebangsaan Malaysia (UKM)</p>
-                    </div>
-                </div>
-
-                <div class="profile-edu-item">
-                    <span class="profile-edu-year">2018 – 2021</span>
-                    <div>
-                    <strong>Diploma in Computer Science</strong>
-                    <p>Universiti Teknologi MARA (UiTM)</p>
-                    </div>
-                </div>
-            </div>
-
-            <a href="#project" class="profile-discover">
-                <span>Discover projects</span>
-                <span class="arrow">→</span>
-            </a>
-
-            </div>
         </section>
 
         <section id="project" class="section" style="display: grid;align-content: center;">
@@ -268,3 +239,5 @@
 </body>
 
 </html>
+
+
